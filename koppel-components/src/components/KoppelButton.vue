@@ -23,12 +23,10 @@ export default {
 <style lang="scss" scoped>
 .button {
   display: inline-block;
-  padding: 20px;
+  padding: 12px 16px;
   border-radius: 10px;
   background: #000;
-  font-size: 18px;
-  font-weight: 900;
-  letter-spacing: 1px;
+  font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -37,6 +35,10 @@ export default {
   &:hover {
     background: #424242;
   }
-}
 
+  @media(min-width: 768px) {
+    padding: 16px 20px;
+    font-size: 16px;
+  }
+}
 </style>

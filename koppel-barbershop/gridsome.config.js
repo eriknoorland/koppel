@@ -1,11 +1,27 @@
-// This is where project configuration and plugin options are located.
-// Learn more: https://gridsome.org/docs/config
-
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
-
 module.exports = {
   siteName: 'KOPPEL BARBERSHOP',
   titleTemplate: '%s',
-  plugins: []
+  plugins: [
+    {
+      use: "gridsome-plugin-i18n",
+      options: {
+        locales: [
+          'nl-nl',
+          'en-gb'
+        ],
+        pathAliases: {
+          'nl-nl': 'nl',
+          'en-gb': 'en'
+        },
+        fallbackLocale: 'nl-nl',
+        defaultLocale: 'nl-nl',
+        enablePathRewrite: true,
+        rewriteDefaultLanguage: true,
+        messages: {
+          'nl-nl': require('./src/locales/nl-nl.json'),
+          'en-gb': require('./src/locales/en-gb.json'),
+        },
+      },
+    },
+  ],
 }

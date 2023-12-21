@@ -9,6 +9,7 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "gridsome": "^0.7.23",
+    "gridsome-plugin-i18n": "^1.6.0",
     "koppel-components": "file:../koppel-components"
   },
   "devDependencies": {
