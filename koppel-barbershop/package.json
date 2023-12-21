@@ -2,8 +2,8 @@
   "name": "koppel-barbershop",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
@@ -13,7 +13,12 @@
     "koppel-components": "file:../koppel-components"
   },
   "devDependencies": {
-    "node-sass": "^4.0.0",
+    "sass": "^1.69.5",
     "sass-loader": "^7.0.0"
+  },
+  "overrides": {
+    "gridsome": {
+      "sharp": "0.29.3"
+    }
   }
 }
