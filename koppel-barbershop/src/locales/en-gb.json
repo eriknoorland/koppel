@@ -3,26 +3,38 @@
     "hour": "hour"
   },
   "metadata": {
-    "description": "Koestraat 24 is the place where barbers Isa and Daan have set up shop to offer the finest in men's grooming; haircuts, shaves and trims. In Amersfoort's charming city centre, they combine a total of 17 years experience with great attention to detail and personal regard, so you can be assured of a timeless style or a modern look. The shop also carries a curated selection of hair products and shaving attributes. Book your appointment with Isa or Daan below to choose your preferred date and time.",
+    "description": "Koestraat 24 is the place where barbers Isa and Daan have set up shop to offer the finest in men's grooming; haircuts, shaves and trims. In Amersfoort's charming city centre, they combine a total of 19 years experience with great attention to detail and personal regard, so you can be assured of a timeless style or a modern look. The shop also carries a curated selection of hair products and shaving attributes. Book your appointment with Isa or Daan below to choose your preferred date and time.",
     "keywords": "Koppel Barbershop, haircut, stylen, shave, men, gentlemen, Amersfoort"
   },
   "intro": {
     "title": "Welcome to Koppel Barbershop",
-    "body": "Koestraat 24 is the place where barbers Isa and Daan have set up shop to offer the finest in men's grooming; haircuts, shaves and trims. In Amersfoort's charming city centre, they combine a total of 17 years experience with great attention to detail and personal regard, so you can be assured of a timeless style or a modern look. The shop also carries a curated selection of hair products and shaving attributes. Book your appointment with Isa or Daan below to choose your preferred date and time."
+    "body": "Koestraat 24 is the place where barbers Isa and Daan have set up shop to offer the finest in men's grooming; haircuts, shaves and trims. In Amersfoort's charming city centre, they combine a total of 19 years experience with great attention to detail and personal regard, so you can be assured of a timeless style or a modern look. The shop also carries a curated selection of hair products and shaving attributes. Book your appointment with Isa or Daan below to choose your preferred date and time."
   },
   "prices": {
     "title": "Prices",
+    "titleIsa": "Prices and treatments Isa",
+    "titleDaan": "Prices and treatments Daan",
     "haircut": "Haircut",
     "haircutSidesRear": "Touch-up back & sides only",
     "haircutInSilence": "Haircut in silence",
-    "haircutChild": "Haircut children (8 t/m 12 years old)",
+    "haircutChild": "Haircut children (8 to 12 years old)",
     "buzzcut": "Buzzcut",
     "haircutBeardTrim": "Haircut & beard trim",
     "beardtrim": "Beard trim",
     "haircutAndShave": "Haircut & shave",
     "shave": "Shave",
     "headShave": "Head shave",
-    "headShaveAndBeardTrim": "Head shave & beard trim"
+    "headShaveAndBeardTrim": "Head shave & beard trim",
+    "haircutChild8T012": "Haircut children (8 to 12 years old)",
+    "haircutChild13T018": "Haircut children (13 to 18 years old)",
+    "haircutBeardTrimWithShave": "Hair & Beard trim WITH shave",
+    "haircutBeardTrimWithoutShave": "Hair & Beard trim WITHOUT shave",
+    "beardtrimWithShave": "Beard trim WITH shave",
+    "beardtrimWithoutShave": "Beard trim WITHOUT shave",
+    "buzzcutAndBeardTrimWithShave": "Buzzcut & Beard trim WITH shave",
+    "buzzcutAndBeardTrimWithoutShave": "Buzzcut & Beard trim WITHOUT shave",
+    "headShaveAndBeardTrimWithShave": "Head shave & Beard trim WITH shave",
+    "headShaveAndBeardTrimWithoutShave": "Head shave & Beard trim WITHOUT shave"
   },
   "book": {
     "title": "Bookings",
@@ -39,5 +51,8 @@
   "location": {
     "title": "You can find us here",
     "body": "The closest available parking is Koestraat parking garage, though it is often busy on thursday, friday and saturday."
+  },
+  "notifications": {
+    "startOf2024": "Dear customers,<br /><br />2024 has started which means we have a great new year ahead of us including some anncouncements<br />Isa her recovery is going well but she will need to take some more rest than she did so far. Her agenda will have limited time slots until she has fully recovered. Make sure to book your appointment on time because of the limited available slots!<br /><br />Sadly we also have to raise our pices for the coming year. Some of the treatments have remained the same and some are raised in price. Starting Thursday February 1st the new pricelist will go in effect. Besides the new prices there are also some new treatments to better serve you as our customer.<br /><br />See you soon in one of our chairs, Love!<br /><br />Isa & Daan"
   }
 }

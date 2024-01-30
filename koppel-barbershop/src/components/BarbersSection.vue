@@ -48,7 +48,7 @@ export default {
         {
           name: 'Isa',
           bookings: 'koppelbarbershop1',
-          openingHoursWeekdays: '11.00 - 19.00',
+          openingHoursWeekdays: '10.00 - 19.00',
           openingHoursWeekend: '09.00 - 16.00',
         },
         {

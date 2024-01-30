@@ -3,15 +3,17 @@
     "hour": "uur"
   },
   "metadata": {
-    "description": "Koestraat 24 is de nieuwe locatie waar de barbiers Isa en Daan hun krachten bundelen middenin de sfeervolle binnenstad van Amersfoort. Hier kunnen mannen als vanouds terecht voor knippen, scheren en trimmen met professionele aandacht. Met samen 17 jaar ervaring in de vingers ben je verzekerd van een nieuwe of juist vertrouwde tijdloze look. Daarbij bieden ze een selectie van zorgvuldig uitgekozen haarproducten en scheermaterialen. Maak hieronder je afspraak bij Isa of Daan voor gewenste dag en tijd.",
+    "description": "Koestraat 24 is de nieuwe locatie waar de barbiers Isa en Daan hun krachten bundelen middenin de sfeervolle binnenstad van Amersfoort. Hier kunnen mannen als vanouds terecht voor knippen, scheren en trimmen met professionele aandacht. Met samen 19 jaar ervaring in de vingers ben je verzekerd van een nieuwe of juist vertrouwde tijdloze look. Daarbij bieden ze een selectie van zorgvuldig uitgekozen haarproducten en scheermaterialen. Maak hieronder je afspraak bij Isa of Daan voor gewenste dag en tijd.",
     "keywords": "Koppel Barbershop, knippen, stylen, scheren, mannen, heren, Amersfoort"
   },
   "intro": {
     "title": "Welkom bij Koppel Barbershop",
-    "body": "Koestraat 24 is de nieuwe locatie waar de barbiers Isa en Daan hun krachten bundelen middenin de sfeervolle binnenstad van Amersfoort. Hier kunnen mannen als vanouds terecht voor knippen, scheren en trimmen met professionele aandacht. Met samen 17 jaar ervaring in de vingers ben je verzekerd van een nieuwe of juist vertrouwde tijdloze look. Daarbij bieden ze een selectie van zorgvuldig uitgekozen haarproducten en scheermaterialen. Maak hieronder je afspraak bij Isa of Daan voor gewenste dag en tijd."
+    "body": "Koestraat 24 is de nieuwe locatie waar de barbiers Isa en Daan hun krachten bundelen middenin de sfeervolle binnenstad van Amersfoort. Hier kunnen mannen als vanouds terecht voor knippen, scheren en trimmen met professionele aandacht. Met samen 19 jaar ervaring in de vingers ben je verzekerd van een nieuwe of juist vertrouwde tijdloze look. Daarbij bieden ze een selectie van zorgvuldig uitgekozen haarproducten en scheermaterialen. Maak hieronder je afspraak bij Isa of Daan voor gewenste dag en tijd."
   },
   "prices": {
     "title": "Tarieven",
+    "titleIsa": "Prijzen & Behandelingen Isa",
+    "titleDaan": "Prijzen & Behandelingen Daan",
     "haircut": "Knippen",
     "haircutSidesRear": "Enkel zij & achterkant bijwerken",
     "haircutInSilence": "Knippen in stilte",
@@ -22,7 +24,17 @@
     "haircutAndShave": "Knippen & scheren",
     "shave": "Scheren",
     "headShave": "Hoofd scheren",
-    "headShaveAndBeardTrim": "Hoofd scheren & baard trim"
+    "headShaveAndBeardTrim": "Hoofd scheren & baard trim",
+    "haircutChild8T012": "Knippen kind (vanaf 8 t/m 12 jaar)",
+    "haircutChild13T018": "Knippen kind (vanaf 13 t/m 18 jaar)",
+    "haircutBeardTrimWithShave": "Haar & Baard trim MET scheren",
+    "haircutBeardTrimWithoutShave": "Haar & Baard trim ZONDER scheren",
+    "beardtrimWithShave": "Baard trim MET scheren",
+    "beardtrimWithoutShave": "Baard trim ZONDER scheren",
+    "buzzcutAndBeardTrimWithShave": "Buzzcut & Baard trim MET scheren",
+    "buzzcutAndBeardTrimWithoutShave": "Buzzcut & Baard trim ZONDER scheren",
+    "headShaveAndBeardTrimWithShave": "Hoofd scheren & Baard trim MET scheren",
+    "headShaveAndBeardTrimWithoutShave": "Hoofd scheren & Baard trim ZONDER scheren"
   },
   "book": {
     "title": "Afspraak maken",
@@ -39,5 +51,8 @@
   "location": {
     "title": "Kom langs (op afspraak)",
     "body": "De dichtsbijzijnde parkeerplaats is de Koestraat parkeergarage. Houd rekening met drukte in de parkeergarage van donderdag tot en met zaterdag."
+  },
+  "notifications": {
+    "startOf2024": "Lieve klanten,<br /><br />2024 is begonnen en dat betekent een mooi nieuw jaar voor de boeg en ook een aantal mededelingen.<br />Isa haar herstel gaat goed, maar moet helaas toch nog wat meer rust nemen dan dat ze tot nu toe heeft gedaan. Dus haar agenda zal tijdelijk nog wat beperkt open zijn tot verder herstel, dus wees snel met boeken gezien het nu sneller gaat dan normaal!<br /><br />Ook moeten we helaas toegeven aan een aantal prijsverhogingen dus na een hoop gepuzzel zijn er een aantal behandelingen hetzelfde gebleven en een aantal verhoogd. Vanaf donderdag 1 februari zal de nieuwe prijslijst ingaan, ook worden er een aantal behandelingen toegevoegd in Isa haar agenda om jullie beter van dienst te kunnen zijn.<br /><br />Tot gauw in de stoel, liefs!<br /><br />Isa & Daan"
   }
 }

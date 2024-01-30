@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" style="overflow-x: hidden;">
     <div class="languageSwitcher">
       <router-link
         v-if="$i18n.locale === 'nl-nl'"

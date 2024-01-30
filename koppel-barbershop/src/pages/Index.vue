@@ -23,6 +23,12 @@
     </koppel-section>
 
     <koppel-section modifiers="padding-top">
+      <base-notification>
+        <span v-html="$t('notifications.startOf2024')" />
+      </base-notification>
+    </koppel-section>
+
+    <koppel-section modifiers="padding-top">
       <h1 class="heading1" style="text-align: center;">
         {{ $t('intro.title') }}
       </h1>
@@ -35,26 +41,32 @@
     <koppel-section modifiers="section">
       <div style="text-align: center;">
         <h2 class="heading1">
-          {{ $t('prices.title') }}
+          {{ $t('prices.titleIsa') }}
         </h2>
       </div>
 
       <table style="margin: 0 auto;">
-        <tr
-          v-for="(option, index) in options"
+        <price-row
+          v-for="(option, index) in optionsIsa"
           v-bind:key="index"
-        >
-          <td>
-            {{ option.label }}
-            <span style="font-style: italic;">
-              ({{ option.duration }})
-            </span>
-          </td>
+          v-bind:data="option"
+        />
+      </table>
+    </koppel-section>
 
-          <td>
-            {{ option.price }}
-          </td>
-        </tr>
+    <koppel-section modifiers="section">
+      <div style="text-align: center;">
+        <h2 class="heading1">
+          {{ $t('prices.titleDaan') }}
+        </h2>
+      </div>
+
+      <table style="margin: 0 auto;">
+        <price-row
+          v-for="(option, index) in optionsDaan"
+          v-bind:key="index"
+          v-bind:data="option"
+        />
       </table>
     </koppel-section>
 
@@ -127,6 +139,7 @@ import KoppelCards from 'koppel-components/src/components/KoppelCards';
 import KoppelCard from 'koppel-components/src/components/KoppelCard';
 import BaseNotification from '@/components/BaseNotification';
 import BarbersSection from '@/components/BarbersSection';
+import PriceRow from '@/components/PriceRow';
 
 export default {
   components: {
@@ -136,65 +149,145 @@ export default {
     KoppelCard,
     BaseNotification,
     BarbersSection,
+    PriceRow,
   },
 
   computed: {
-    options() {
+    optionsIsa() {
       return [
         {
           label: this.$t('prices.haircut'),
+          price: '€35',
           duration: '40 min',
-          price: '€32.50',
-        },
-        {
-          label: this.$t('prices.haircutSidesRear'),
-          duration: '30 min',
-          price: '€17.50',
         },
         {
           label: this.$t('prices.haircutInSilence'),
+          price: '€35',
           duration: '40 min',
-          price: '€32.50',
         },
         {
-          label: this.$t('prices.haircutChild'),
-          duration: '40 min',
+          label: this.$t('prices.haircutSidesRear'),
           price: '€20',
+          duration: '30 min',
+        },
+        {
+          label: this.$t('prices.haircutChild8T012'),
+          price: '€20',
+          duration: '40 min',
+        },
+        {
+          label: this.$t('prices.haircutChild13T018'),
+          price: '€22,50',
+          duration: '40 min',
         },
         {
           label: this.$t('prices.buzzcut'),
-          duration: '15 min',
-          price: '€12,50',
+          price: '€15',
+          duration: '20 min',
         },
         {
-          label: this.$t('prices.haircutBeardTrim'),
-          duration: `1 ${this.$t('common.hour')}, 10 min`,
-          price: '€42.50',
+          label: this.$t('prices.haircutBeardTrimWithShave'),
+          price: '€47,50',
+          duration: '1 uur & 10 min',
         },
         {
-          label: this.$t('prices.beardtrim'),
+          label: this.$t('prices.haircutBeardTrimWithoutShave'),
+          price: '€ 42,50',
+          duration: '50 min',
+        },
+        {
+          label: this.$t('prices.beardtrimWithShave'),
+          price: '€22,50',
           duration: '40 min',
-          price: '€17,50',
         },
         {
-          label: this.$t('prices.haircutAndShave'),
-          duration: `1 ${this.$t('common.hour')}, 40 min`,
-          price: '€45',
+          label: this.$t('prices.beardtrimWithoutShave'),
+          price: '€17,50',
+          duration: '30 min',
+        },
+        {
+          label: this.$t('prices.buzzcutAndBeardTrimWithShave'),
+          price: '€35',
+          duration: '50 min',
+        },
+        {
+          label: this.$t('prices.buzzcutAndBeardTrimWithoutShave'),
+          price: '€30',
+          duration: '30 min',
         },
         {
           label: this.$t('prices.shave'),
-          duration: '50 min',
-          price: '€25',
+          price: '€27,50',
+          duration: '40 min',
+        },
+        {
+          label: this.$t('prices.haircutAndShave'),
+          price: '€55',
+          duration: `1 ${this.$t('common.hour')}, 10 min`,
         },
         {
           label: this.$t('prices.headShave'),
-          duration: '45 min',
-          price: '€17.50',
+          price: '€22,50',
+          duration: '40 min',
         },
         {
-          label: this.$t('prices.headShaveAndBeardTrim'),
-          duration: `1 ${this.$t('common.hour')}, 25 min`,
-          price: '€42.50',
+          label: this.$t('prices.headShaveAndBeardTrimWithShave'),
+          price: '€45',
+          duration: `1 ${this.$t('common.hour')}, 10 min`,
+        },
+        {
+          label: this.$t('prices.headShaveAndBeardTrimWithoutShave'),
+          price: '€40',
+          duration: '50 min',
+        },
+      ];
+    },
+    optionsDaan() {
+      return [
+        {
+          label: this.$t('prices.haircut'),
+          price: '€35',
+          duration: '40 min',
+        },
+        {
+          label: this.$t('prices.haircutInSilence'),
+          price: '€35',
+          duration: '40 min',
+        },
+        {
+          label: this.$t('prices.haircutSidesRear'),
+          price: '€20',
+          duration: '30 min',
+        },
+        {
+          label: this.$t('prices.haircutChild8T012'),
+          price: '€22,50',
+          duration: '40 min',
+        },
+        {
+          label: this.$t('prices.beardtrim'),
+          price: '€20',
+          duration: '40 min',
+        },
+        {
+          label: this.$t('prices.haircutBeardTrim'),
+          price: '€45',
+          duration: `1 ${this.$t('common.hour')}, 10 min`,
+        },
+        {
+          label: this.$t('prices.buzzcut'),
+          price: '€15',
+          duration: '15 min',
+        },
+        {
+          label: this.$t('prices.haircutAndShave'),
+          price: '€47,50',
+          duration: `1 ${this.$t('common.hour')}, 40 min`,
+        },
+        {
+          label: this.$t('prices.shave'),
+          price: '€27,50',
+          duration: '50 min',
         },
       ];
     },
