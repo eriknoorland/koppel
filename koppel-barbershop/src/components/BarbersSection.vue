@@ -51,12 +51,12 @@ export default {
           openingHoursWeekdays: '10.00 - 19.00',
           openingHoursWeekend: '09.00 - 16.00',
         },
-        {
-          name: 'Daan',
-          bookings: 'barbierdekortwiek',
-          openingHoursWeekdays: '10.00 - 19.00',
-          openingHoursWeekend: '09.00 - 16.00',
-        },
+        // {
+        //   name: 'Daan',
+        //   bookings: 'barbierdekortwiek',
+        //   openingHoursWeekdays: '10.00 - 19.00',
+        //   openingHoursWeekend: '09.00 - 16.00',
+        // },
       ],
     };
   },
@@ -70,11 +70,12 @@ export default {
 
 .bookSection__barbers {
   display: flex;
-  justify-content: space-between;
+  gap: 12px;
+  justify-content: center;
 }
 
 .bookSection__barber {
-  flex: 0 0 calc(50% - 6px);
+  flex: 0 1 50%;
   padding: 12px;
   background: #f0f0f0;
   border-radius: 10px;
