@@ -69,12 +69,14 @@ export default {
 }
 
 .bookSection__barber {
-  flex: 0 1 50%;
+  flex: 0 1 100%;
   padding: 12px;
   background: #f0f0f0;
   border-radius: 10px;
+  text-align: center;
 
   @media(min-width: 768px) {
+    flex-basis: 50%;
     padding: 20px;
   }
 }
