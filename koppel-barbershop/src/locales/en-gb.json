@@ -3,16 +3,15 @@
     "hour": "hour"
   },
   "metadata": {
-    "description": "Koestraat 24 is the place where barber Isa has set up shop to offer the finest in men's grooming; haircuts, shaves and trims. In Amersfoort's charming city centre, they combine a total of 19 years experience with great attention to detail and personal regard, so you can be assured of a timeless style or a modern look. The shop also carries a curated selection of hair products and shaving attributes. Book your appointment with Isa below to choose your preferred date and time.",
+    "description": "With over 12 years of experience in the barber trade, Koppel Barbershop is the place for men seeking style and quality.",
     "keywords": "Koppel Barbershop, haircut, stylen, shave, men, gentlemen, Amersfoort"
   },
   "intro": {
     "title": "Welcome to Koppel Barbershop",
-    "body": "Koestraat 24 is the place where barber Isa has set up shop to offer the finest in men's grooming; haircuts, shaves and trims. In Amersfoort's charming city centre, they combine a total of 19 years experience with great attention to detail and personal regard, so you can be assured of a timeless style or a modern look. The shop also carries a curated selection of hair products and shaving attributes. Book your appointment with Isa below to choose your preferred date and time."
+    "body": "With over 12 years of experience in the barber trade, Koppel Barbershop is the place for men seeking style and quality. Since its opening in 2020 in Amersfoort, Isa has created a space where every customer feels welcome and appreciated. At Koppel Barbershop, not only is excellent hair, beard and clean shave care provided, but also a unique experience in which your wishes are the focus. Isa specializes in various styles such as Western and Azian hair and enjoys collaborating with you to create your personal look. Stop by and experience the atmosphere of Koppel Barbershop – where craftsmanship and a personal touch come together."
   },
   "prices": {
-    "title": "Prices",
-    "titleIsa": "Prices and treatments Isa",
+    "title": "Prices and treatments",
     "haircut": "Haircut",
     "haircutSidesRear": "Touch-up back & sides only",
     "haircutInSilence": "Haircut in silence",
@@ -37,6 +36,7 @@
   },
   "book": {
     "title": "Bookings",
+    "openingHoursTitle": "Opening hours",
     "openingHoursWeekdaysMobile": "tue - fri {hours}",
     "openingHoursWeekendMobile": "sat {hours}",
     "openingHoursWeekdaysDesktop": "Tuesday through Friday between {hours}",

@@ -11,7 +11,7 @@
         class="bookSection__barber"
       >
         <div class="bookSection__barberTitle">
-          {{ $t('book.barberTitle', { name: barber.name }) }}
+          {{ $t('book.openingHoursTitle') }}
         </div>
 
         <span class="is-visible-sm">

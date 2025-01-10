@@ -41,7 +41,7 @@
     <koppel-section modifiers="section">
       <div style="text-align: center;">
         <h2 class="heading1">
-          {{ $t('prices.titleIsa') }}
+          {{ $t('prices.title') }}
         </h2>
       </div>
 
@@ -74,7 +74,7 @@
     <koppel-section modifiers="section">
       <koppel-cards modifiers="2-columns">
         <koppel-card
-          title="Contact Isa"
+          title="Contact"
           body="<a href='https://instagram.com/koppel_barbershop' target='_blank' rel='noopener noreferrer'>Instagram</a><br /><a href='tel:0618924989'>Tel: 06 18 92 49 89</a><br /><a href='mailto:info@koppel-barbershop.nl'>E-mail: info@koppel-barbershop.nl</a>"
         >
           <template v-slot:image="slotProps">
@@ -178,12 +178,12 @@ export default {
         },
         {
           label: this.$t('prices.buzzcutAndBeardTrimWithShave'),
-          price: '€35',
+          price: '€30',
           duration: '50 min',
         },
         {
           label: this.$t('prices.buzzcutAndBeardTrimWithoutShave'),
-          price: '€30',
+          price: '€25',
           duration: '30 min',
         },
         {

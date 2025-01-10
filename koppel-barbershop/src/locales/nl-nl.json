@@ -3,16 +3,15 @@
     "hour": "uur"
   },
   "metadata": {
-    "description": "Koestraat 24 is de nieuwe locatie waar barbier Isa is gevestigd middenin de sfeervolle binnenstad van Amersfoort. Hier kunnen mannen als vanouds terecht voor knippen, scheren en trimmen met professionele aandacht. Met samen 19 jaar ervaring in de vingers ben je verzekerd van een nieuwe of juist vertrouwde tijdloze look. Daarbij bieden ze een selectie van zorgvuldig uitgekozen haarproducten en scheermaterialen. Maak hieronder je afspraak bij Isa voor gewenste dag en tijd.",
+    "description": "Met meer dan 12 jaar ervaring in het barbiersvak is Koppel Barbershop dé plek voor mannen die op zoek zijn naar stijl en kwaliteit.",
     "keywords": "Koppel Barbershop, knippen, stylen, scheren, mannen, heren, Amersfoort"
   },
   "intro": {
     "title": "Welkom bij Koppel Barbershop",
-    "body": "Koestraat 24 is de nieuwe locatie waar barbier Isa is gevestigd middenin de sfeervolle binnenstad van Amersfoort. Hier kunnen mannen als vanouds terecht voor knippen, scheren en trimmen met professionele aandacht. Met samen 19 jaar ervaring in de vingers ben je verzekerd van een nieuwe of juist vertrouwde tijdloze look. Daarbij bieden ze een selectie van zorgvuldig uitgekozen haarproducten en scheermaterialen. Maak hieronder je afspraak bij Isa voor gewenste dag en tijd."
+    "body": "Met meer dan 12 jaar ervaring in het barbiersvak is Koppel Barbershop dé plek voor mannen die op zoek zijn naar stijl en kwaliteit. Sinds de opening in 2020 in Amersfoort heeft Isa een plek gecreëerd waar elke klant zich welkom en gewaardeerd voelt. Bij Koppel Barbershop wordt niet alleen een uitstekende haar, baard en scheer verzorging geboden, maar ook een unieke ervaring waarin jouw wensen centraal staan. Isa is gespecialiseerd in diverse stijlen zoals Westers en Aziatisch haar en werkt graag met jou samen om jouw persoonlijke look te creëren. Kom langs en ervaar zelf de sfeer van Koppel Barbershop – waar vakmanschap en een persoonlijke touch samenkomen."
   },
   "prices": {
-    "title": "Tarieven",
-    "titleIsa": "Prijzen & Behandelingen Isa",
+    "title": "Prijzen & Behandelingen",
     "haircut": "Knippen",
     "haircutSidesRear": "Enkel zij & achterkant bijwerken",
     "haircutInSilence": "Knippen in stilte",
@@ -37,6 +36,7 @@
   },
   "book": {
     "title": "Afspraak maken",
+    "openingHoursTitle": "Openingstijden",
     "openingHoursWeekdaysMobile": "di - vr {hours} uur",
     "openingHoursWeekendMobile": "za {hours} uur",
     "openingHoursWeekdaysDesktop": "Dinsdag t/m vrijdag van {hours} uur",
