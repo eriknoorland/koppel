@@ -91,11 +91,7 @@
           v-bind:body="`${$t('location.body')}<br /><br />Koppel Barbershop<br />Koestraat 24<br />3811 HK Amersfoort`"
         >
           <template v-slot:image="slotProps">
-            <g-image
-              src="~/assets/img/shop-location-bw.jpg"
-              alt="Koppel Barbershop Locatie"
-              v-bind:class="slotProps.className"
-            />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d611.9854958413754!2d5.388188469708799!3d52.15356479824799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6470fe93380e3%3A0xe156fa27e1e9ea2f!2sKoppel%20Barbershop!5e0!3m2!1sen!2snl!4v1736518714553!5m2!1sen!2snl" width="600" height="175" style="max-width: 100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </template>
         </koppel-card>
       </koppel-cards>
