@@ -51,12 +51,6 @@ export default {
           openingHoursWeekdays: '10.00 - 19.00',
           openingHoursWeekend: '09.00 - 16.00',
         },
-        // {
-        //   name: 'Daan',
-        //   bookings: 'barbierdekortwiek',
-        //   openingHoursWeekdays: '10.00 - 19.00',
-        //   openingHoursWeekend: '09.00 - 16.00',
-        // },
       ],
     };
   },

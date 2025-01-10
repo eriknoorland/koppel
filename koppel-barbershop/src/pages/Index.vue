@@ -54,22 +54,6 @@
       </table>
     </koppel-section>
 
-    <!-- <koppel-section modifiers="section">
-      <div style="text-align: center;">
-        <h2 class="heading1">
-          {{ $t('prices.titleDaan') }}
-        </h2>
-      </div>
-
-      <table style="margin: 0 auto;">
-        <price-row
-          v-for="(option, index) in optionsDaan"
-          v-bind:key="index"
-          v-bind:data="option"
-        />
-      </table>
-    </koppel-section> -->
-
     <koppel-section>
       <barbers-section />
     </koppel-section>
@@ -101,19 +85,6 @@
             />
           </template>
         </koppel-card>
-
-        <!-- <koppel-card
-          title="Contact Daan"
-          body="<a href='https://instagram.com/barbier_de_kortwiek' target='_blank' rel='noopener noreferrer'>Instagram</a><br /><a href='tel:0618924989'>Tel: 06 18 92 49 89</a><br /><a href='mailto:info@barbierdekortwiek.nl'>E-mail: info@barbierdekortwiek.nl</a>"
-        >
-          <template v-slot:image="slotProps">
-            <g-image
-              src="~/assets/img/kwast_bw.jpg"
-              alt="Koppel Barbershop Contact"
-              v-bind:class="slotProps.className"
-            />
-          </template>
-        </koppel-card> -->
 
         <koppel-card
           v-bind:title="$t('location.title')"
@@ -242,55 +213,6 @@ export default {
         },
       ];
     },
-    // optionsDaan() {
-    //   return [
-    //     {
-    //       label: this.$t('prices.haircut'),
-    //       price: '€35',
-    //       duration: '40 min',
-    //     },
-    //     {
-    //       label: this.$t('prices.haircutInSilence'),
-    //       price: '€35',
-    //       duration: '40 min',
-    //     },
-    //     {
-    //       label: this.$t('prices.haircutSidesRear'),
-    //       price: '€20',
-    //       duration: '30 min',
-    //     },
-    //     {
-    //       label: this.$t('prices.haircutChild8T012'),
-    //       price: '€22,50',
-    //       duration: '40 min',
-    //     },
-    //     {
-    //       label: this.$t('prices.beardtrim'),
-    //       price: '€20',
-    //       duration: '40 min',
-    //     },
-    //     {
-    //       label: this.$t('prices.haircutBeardTrim'),
-    //       price: '€45',
-    //       duration: `1 ${this.$t('common.hour')}, 10 min`,
-    //     },
-    //     {
-    //       label: this.$t('prices.buzzcut'),
-    //       price: '€15',
-    //       duration: '15 min',
-    //     },
-    //     {
-    //       label: this.$t('prices.haircutAndShave'),
-    //       price: '€47,50',
-    //       duration: `1 ${this.$t('common.hour')}, 40 min`,
-    //     },
-    //     {
-    //       label: this.$t('prices.shave'),
-    //       price: '€27,50',
-    //       duration: '50 min',
-    //     },
-    //   ];
-    // },
   },
 }
 </script>
